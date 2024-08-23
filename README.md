@@ -63,17 +63,3 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/backupspeedtool/main/backupspeedtool", true))()
   	end    
 })
-
-Tab:AddButton({
-	Name = "Roblox Speed ( undetected ) !",
-	Callback = function()
-      		LocalPlayer.Huamanoid.WalkSpeed = +50
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Roblox Speed ( undetected ) !",
-	Callback = function()
-      		LocalPlayer.Huamanoid.WalkSpeed = +16
-  	end    
-})
